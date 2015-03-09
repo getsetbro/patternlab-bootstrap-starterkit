@@ -1,0 +1,14 @@
+.sass-cache/
+builder/
+node_modules/
+public/
+test/
+
+*.yml
+CHANGELOG
+config.json
+CONTRIBUTING.md
+Gruntfile.js
+LICENSE
+package.json
+patternlab.json

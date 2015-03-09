@@ -1,0 +1,48 @@
+<!--
+<div class="carousel-list-carousel">
+	<div class="carousel-container">
+		{{> molecules-inset-block }} 
+	<div>
+	<div class="carousel-controls">
+		<a href="#" class="carousel-prev">&larr;</a>
+		<div class="carousel-pagination">1/5</div>
+		<a href="#" class="carousel-next">&rarr;</a>
+	</div>
+</div>
+-->
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+			{{> atoms-landscape-4x3 }} 
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+			{{> atoms-landscape-4x3 }} 
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
