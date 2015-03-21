@@ -30,9 +30,9 @@
 
 
 
-@import "scss/generic/variables";
-@import "scss/generic/mixins";
-@import "scss/generic/reset";
+/*@import "scss/generic/variables";*/
+/*@import "scss/generic/mixins";*/
+/*@import "scss/generic/reset";*/
 
 
 
@@ -41,16 +41,16 @@
 /*------------------------------------*\
     $GLOBAL ELEMENTS
 \*------------------------------------*/
-@import "scss/base/global-classes";
-@import "scss/base/main";
-@import "scss/base/links";
-@import "scss/base/headings";
-@import "scss/base/text";
-@import "scss/base/lists";
-@import "scss/base/media";
-@import "scss/base/forms";
-@import "scss/base/tables";
-@import "scss/base/animation";
+/*@import "scss/base/global-classes";*/
+/*@import "scss/base/main";*/
+/*@import "scss/base/links";*/
+/*@import "scss/base/headings";*/
+/*@import "scss/base/text";*/
+/*@import "scss/base/lists";*/
+/*@import "scss/base/media";*/
+/*@import "scss/base/forms";*/
+/*@import "scss/base/tables";*/
+/*@import "scss/base/animation";*/
 
 
 
@@ -59,23 +59,23 @@
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
-@import "scss/objects/layout";
+/*@import "scss/objects/layout";*/
 
 
 /*------------------------------------*\
     $PAGE STRUCTURE
 \*------------------------------------*/
-@import "scss/objects/header";
+/*@import "scss/objects/header";*/
 /*@import "scss/objects/nav";*/
-@import "scss/objects/main";
-@import "scss/objects/footer";
+/*@import "scss/objects/main";*/
+/*@import "scss/objects/footer";*/
 
 
 
 /*------------------------------------*\
     $TEXT Styles
 \*------------------------------------*/
-@import "scss/objects/text";
+/*@import "scss/objects/text";*/
 
 
 /*------------------------------------*\
@@ -83,13 +83,20 @@
 \*------------------------------------*/
 /*@import "scss/objects/icons";*/
 /*@import "scss/objects/buttons";*/
-@import "scss/objects/blocks";
-@import "scss/objects/lists";
-@import "scss/objects/tooltip";
+/*@import "scss/objects/blocks";*/
+/*@import "scss/objects/lists";*/
+/*@import "scss/objects/tooltip";*/
 /*@import "scss/objects/accordion";*/
 /*@import "scss/objects/tabs";*/
-@import "scss/objects/sections";
-@import "scss/objects/article";
-@import "scss/objects/comments";
+/*@import "scss/objects/sections";*/
+/*@import "scss/objects/article";*/
+/*@import "scss/objects/comments";*/
 
-
+[class^=col-] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
